@@ -1,0 +1,33 @@
+@import "./card.css";
+
+p {
+    color: #1f1f1f;
+}
+
+body {
+    background-color: #222831;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: #00adb5 !important;
+}
+
+nav a {
+    font-family: 'Yesteryear', cursive;
+    font-size: 25px !important;
+}
+
+nav button {
+    background-color: #1b262c !important;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+ul li {
+    font-size: 14px;
+    border: none !important;
+    outline: none !important;
+}

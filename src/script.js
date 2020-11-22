@@ -1,0 +1,10 @@
+import "regenerator-runtime";
+import "jquery";
+global.jQuery = require("jquery");
+require("bootstrap");
+import "bootstrap/dist/css/bootstrap.min.css";
+import "popper.js";
+import "./css/style.css";
+import "./js/component/popUp.js";
+import main from "./js/view/main.js";
+document.addEventListener("DOMContentLoaded", main);
